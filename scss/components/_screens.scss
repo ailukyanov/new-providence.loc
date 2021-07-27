@@ -1,0 +1,41 @@
+.screens {
+  background-color: #f5f5f8;
+
+  &__content {
+  }
+
+  &__item {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 45px;
+  }
+
+  &__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    color: #26272d;
+    margin-bottom: 50px;
+  }
+
+  &__line {
+    border: 1px solid #267df4;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin-top: 45px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #8c8f94;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__photo {
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
