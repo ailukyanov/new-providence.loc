@@ -1,7 +1,11 @@
 .header {
+  background-image: url("../img/jpg/header-background.jpg");
+  background-size: cover;
+
 
   &__content {
-
+    height: 1000px;
+    margin-bottom: 120px;
   }
 
   &__logo {
@@ -107,7 +111,7 @@
       height: 50px;
       width: 200px;
       border-radius: 50px;
-      border: #dadcde;
+      border-color: #dadcde;
       background-color: #edf0f2;
 
       a {
