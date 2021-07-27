@@ -437,6 +437,9 @@ template {
         margin-right: 12px; }
 
 .features__content {
+  margin-bottom: 120px; }
+
+.features__items {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -445,7 +448,7 @@ template {
   margin-bottom: 130px; }
 
 .features__item:last-child {
-  margin-left: 120px; }
+  margin-left: 100px; }
 
 .features__icon {
   margin-bottom: 50px; }
@@ -460,5 +463,68 @@ template {
   font-size: 18px;
   color: #9d9fa3;
   line-height: 1.5; }
+
+.features__line {
+  border-bottom: 1px solid #f4f4f4;
+  width: 1170px; }
+
+.iphone__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px; }
+
+.iphone__photo img {
+  max-width: 100%; }
+
+.iphone__slogan {
+  margin-left: 95px;
+  margin-top: 120px; }
+
+.iphone__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  color: #26272d;
+  margin-bottom: 85px; }
+
+.iphone__description {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #8c8f94;
+  line-height: 1.5;
+  margin-bottom: 80px; }
+
+.iphone__buttons .button__left {
+  width: 200px;
+  height: 40px;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+  border: none;
+  background-color: #267df4; }
+  .iphone__buttons .button__left a {
+    text-decoration: none;
+    color: #f6f9fe;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; }
+  .iphone__buttons .button__left img {
+    margin-left: 50px; }
+
+.iphone__buttons .button__right {
+  width: 140px;
+  height: 40px;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border-color: #dadcde; }
+  .iphone__buttons .button__right a {
+    text-decoration: none;
+    color: #737476;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
