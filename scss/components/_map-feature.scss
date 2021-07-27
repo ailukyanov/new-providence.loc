@@ -1,0 +1,49 @@
+.map-feature {
+  margin-bottom: 200px;
+
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+
+  }
+
+  &__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: #26272d;
+  }
+
+  &__description {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #8c8f94;
+    line-height: 1.5;
+    margin-bottom: 65px;
+  }
+
+  &__partners {
+    margin-bottom: 40px;
+  }
+
+  &__logos {
+    a {
+
+      &:last-child {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  &__map {
+    margin-right: -180px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
