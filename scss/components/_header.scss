@@ -1,6 +1,6 @@
 .header {
   background-image: url("../img/jpg/header-background.jpg");
-  background-size: cover;
+  background-size: contain;
 
   &__content {
     height: 1000px;
@@ -55,33 +55,6 @@
     display: flex;
   }
 
-  &__button {
-    display: flex;
-    margin-left: 30px;
-    background-color: #267df4;
-    border: none;
-    color: #ffffff;
-    height: 40px;
-    width: 130px;
-    border-radius: 50px;
-    margin-top: 5px;
-
-    a {
-      display: flex;
-      text-decoration: none;
-      margin-left: 17px;
-      margin-top: 9px;
-      color: #ffffff;
-      font-family: 'Lato', sans-serif;
-      font-size: 16px;
-    }
-
-    img {
-      margin-right: 10px;
-      margin-top: -3px;
-    }
-  }
-
   &__slogan {
     margin-top: 120px;
     text-align: center;
@@ -98,30 +71,6 @@
     font-size: 20px;
     color: #d1d2d4;
     line-height: 1.5;
-  }
-
-  &__btn {
-    margin-top: 65px;
-    text-align: center;
-
-    .btn {
-      height: 50px;
-      width: 200px;
-      border-radius: 50px;
-      border-color: #dadcde;
-      background-color: #edf0f2;
-
-      a {
-        text-decoration: none;
-        color: #26272d;
-        font-family: 'Lato', sans-serif;
-        font-size: 16px;
-      }
-
-      img {
-        margin-right: 12px;
-      }
-    }
   }
 }
 
